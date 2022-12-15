@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Tabuada</h1>
+    </header>
+    <main>
+        <section id="inVal">
+            <form action="">
+                <label for="">Qual número você deseja saber a Tabuada?</label>
+                <input type="number" name="firstNumber" id="firstNumber">
+                
+                <label for="">Até qual valor você gostaria de Multiplicar <br>o Primeiro Numero?</label>
+                <input type="number" name="secondNumber" id="secondNumber">
+            </form>
+         <button type="submit" onclick="multiplica()">Calcular</button>
+         <button type="submit" onclick="limpar()">Limpar</button>
+        </section>
+        <section id="outVal">
+            <h3>Resultado</h3>
+            <p id="valores"></p>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
